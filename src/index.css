@@ -1,13 +1,334 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background-div{
+  background-image: url(../public/images/ocean7.jpg);
+  height: 84vh;
+}
+
+.ic-sec .ic-pos{
+  background-color: rgba(82,91,131,255);
+  height: 100px;
+  width: 100px; 
+  position: relative;
+  left: 45%;
+  bottom: 25%;
+  border-radius: 50px;
+}
+
+.ic-sec .ic-pos i{
+  position: absolute;
+  right: 0.1px;
+  left: 36px;
+  top: 30px;
+  /* margin-left: 3%; */
+}
+
+
+
+.nav-div{
+  padding-left: 50%;
+}
+
+.nav-a{
+  font-size: 20px;
+}
+
+.main-a{
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.des-div{
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+}
+
+.des-h1{
+  font-weight: 100;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.des-p{
+  text-align: center;
+}
+
+.def-sec{
+  margin-top: 10%;
+}
+
+.def-img{
+  position: relative;
+  right: 10%;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease-in
+}
+
+.def-img:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px;
+}
+
+.def-h4{
+  padding-left: 8%;
+  padding-top: 15%;
+}
+
+.def-p{
+  padding-left: 8%;
+  font-size: 15px;
+  width: 85%;
+}
+
+.btn-div{
+  padding-left: 10%;
+}
+
+.def-btn{
+  width: 20%;
+}
+
+.def-btn1{
+  position: relative;
+  left: 1%;
+  width: 20%;
+}
+
+.next-sec{
+  margin-top: 10%;
+}
+
+.next-sec1{
+  position: absolute;
+  top: 0.5%;
+}
+
+.next-div1{
+  margin-top: 10%;
+}
+
+.next-p{
+  text-align: center;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.next-h4{
+  text-align: center;
+}
+
+.next-img{
+  position: relative;
+  left: 10%;
+  width: 90%;
+  height: 90%;
+  transition: all .5s ease-in;
+}
+
+.next-img:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px;
+}
+
+.next-p1{
+  text-align: center;
+  position: relative;
+  top: 2%;
+}
+
+.next-img1{
+  width: 90%;
+  height: 90%;
+  transition: all .5s ease-in;
+}
+
+.next-img1:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px;
+}
+
+.next-row{
+  margin-bottom: 10%;
+}
+
+.rat-sec{
+  background-image: url(../public/images/island.jpg);
+  height: 84vh;
+  margin-top: 10%;
+}
+
+.rat-div{
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.rat-p{
+  width: 88%;
+  position: relative;
+  left: 10%;
+  bottom: 10%;
+}
+
+.Name{
+  position: relative;
+  bottom: 10%;
+  left: 10%;
+}
+
+.star-div{
+  padding-left: 70%;
+  position: absolute;
+  bottom: 5%;
+}
+
+.star{
+  color: rgba(255,193,7,255);
+}
+
+.star-p{
+  position: absolute;
+  left: 71%;
+  top: 5%;
+}
+
+.key-sec{
+  margin-top: 10%;
+}
+
+.img-div{
+  position: relative;
+  left: 40%;
+}
+
+.key-img{
+  width: 55%;
+  height: 55%;
+}
+
+.new-sec{
+  background-image: url(../public/images/forest.jpg);
+  height: 50vh;
+  margin-top: 10%;
+}
+
+.new-h3{
+  color: white;
+  font-weight: 100;
+}
+
+.new-div{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.foot-sec{
+  background-color: rgba(23,25,27,255);
+  height: 100vh;
+}
+
+.foot-h4{
+  padding-left: 20%;
+  padding-top: 40%;
+  margin-bottom: 9%;
+}
+
+.foot-h41{
+  padding-left: 60%;
+  padding-top: 40%;
+  margin-bottom: 9%;
+}
+
+.foot-h42{
+  padding-left: 30%;
+  padding-top: 40%;
+  margin-bottom: 9%;
+}
+
+.foot-h43{
+  padding-left: 0.5%;
+  padding-top: 40%;
+  margin-bottom: 9%;
+}
+
+.miss-div{
+  position: relative;
+  left: 20%;
+  width: 120%;
+}
+
+.link-div{
+  padding-left: 60%;
+}
+
+.link-div1{
+  padding-left: 30%;
+}
+
+.foot-a{
+  text-decoration: none;
+  color: gray;
+}
+
+.foot-a:hover{
+  color: white;
+}
+
+.page-div{
+  position: absolute;
+  top: 6%;
+  padding-left: 21%;
+}
+
+.page-div h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 100;
+}
+
+.form-div{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.form-div1{
+  position: absolute;
+  bottom: 50%;
+  padding-left: 21%;
+}
+
+.form-div1 h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 100;
+}
+
+.form-textarea{
+  background-color: rgba(236, 219, 219, 0.7);
+}
+
+.form-pass{
+  background-color: rgba(236, 219, 219, 0.7);
+}
+
+.form-email{
+  background-color: rgba(236, 219, 219, 0.7);
+}
+
+.abt-div{
+  position: absolute;
+  bottom: 50%;
+  padding-left: 21%;
+}
+
+.abt-div h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 100;
 }
