@@ -26,7 +26,7 @@ function NextProject(params) {
                     <p className="next-p1"> TEXT LEFT HEADER</p>
                 </div>
                 <div className="col-6">
-                    <img src="./public/images/screenshot-bootstrap.png" className="next-img1 rounded" alt="" />
+                    <img src="../public/images/screenshot-bootstrap.png" className="next-img1 rounded" alt="" />
                     <p className="next-p1" >SLIDER CLASSIC</p>
                 </div>
             </div>
